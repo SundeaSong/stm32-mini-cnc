@@ -1,0 +1,41 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+Project/Obj/*.*
+!Project/Obj/*.hex
+!Project/Obj/*.bin
+Project/List
+Project/*.uvguix.*
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+
+# Debug files
+*.dSYM/
+*.DS_Store
+*.bak
+*.dep
+Project/JLinkLog.txt
+Project/JLinkSettings.ini
